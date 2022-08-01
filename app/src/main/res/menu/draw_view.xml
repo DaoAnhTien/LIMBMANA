@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_phieumuon"
+            android:title="Quản lí phiếu mượn"
+            android:icon="@drawable/ic_home"/>
+        <item android:id="@+id/nav_loaisach"
+            android:title="Quản lí Loại Sách"
+            android:icon="@drawable/ic_catebook"/>
+        <item android:id="@+id/nav_sach"
+            android:title="Quản Lí Sách"
+            android:icon="@drawable/ic_books"/>
+        <item android:id="@+id/nav_thanhvien"
+            android:title="Quản lí Thành Viên "
+            android:icon="@drawable/ic_customer"/>
+
+
+        <item android:title="Thống Kê">
+            <menu>
+                <item android:id="@+id/Sub_Top"
+                    android:title="10 sách mượn nhiều nhất"
+                    android:icon="@drawable/ic_top"/>
+                <item android:id="@+id/Sub_Doanhthu"
+                    android:title="Doanh Thu"
+                    android:icon="@drawable/ic_money"/>
+            </menu>
+        </item>
+        <item android:title="Người Dùng">
+            <menu>
+                <item android:id="@+id/Sub_addsuer"
+                    android:title="Thêm người Dùng"
+                    android:visible="false"
+                    android:icon="@drawable/ic_adduser"/>
+                <item android:id="@+id/Sub_Pass"
+                    android:title="Đổi Mật Khẩu"
+                    android:icon="@drawable/ic_pass"/>
+                <item android:id="@+id/Sub_logout"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/ic_logout"/>
+            </menu>
+        </item>
+
+
+    </group>
+</menu>
